@@ -30,7 +30,7 @@ var AppCmp = (function () {
     AppCmp = __decorate([
         angular2_1.Component({
             selector: 'app',
-            template: '<h1>Angular 2</h1>',
+            template: "\n    <h1>Angular 2</h1>\n    <p>A failing request to \"myRestThing\" should have been made if this example works</p>\n  ",
             providers: [http_1.HTTP_PROVIDERS]
         }), 
         __metadata('design:paramtypes', [http_1.Http])

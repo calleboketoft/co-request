@@ -3,7 +3,10 @@ import { Http, Request, HTTP_PROVIDERS } from 'angular2/http'
 import * as coRequest from '../co-request/co-request'
 @Component({
   selector: 'app',
-  template: '<h1>Angular 2</h1>',
+  template: `
+    <h1>Angular 2</h1>
+    <p>A failing request to "myRestThing" should have been made if this example works</p>
+  `,
   providers: [HTTP_PROVIDERS]
 })
 export class AppCmp {
