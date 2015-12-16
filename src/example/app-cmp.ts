@@ -1,4 +1,4 @@
-import { Component } from 'angular2/angular2'
+import { Component } from 'angular2/core'
 import { Http, Request, HTTP_PROVIDERS } from 'angular2/http'
 import * as coRequest from '../co-request/co-request'
 @Component({
